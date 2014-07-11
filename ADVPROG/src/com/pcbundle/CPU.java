@@ -1,10 +1,10 @@
 package com.pcbundle;
 
-public class Keyboard {
+public class CPU {
 	private String sn;
 	private String manufacturer;
 	private double price;
-	private String latency;
+	private String coreModel;
 	
 	public String getSn() {
 		return sn;
@@ -15,8 +15,8 @@ public class Keyboard {
 	public double getPrice() {
 		return price;
 	}
-	public String getLatency() {
-		return latency;
+	public String getCoreModel() {
+		return coreModel;
 	}
 	public void setSn(String sn) {
 		this.sn = sn;
@@ -27,8 +27,7 @@ public class Keyboard {
 	public void setPrice(double price) {
 		this.price = price;
 	}
-	public void setLatency(String latency) {
-		this.latency = latency;
+	public void setCoreModel(String coreModel) {
+		this.coreModel = coreModel;
 	}
-	
 }
