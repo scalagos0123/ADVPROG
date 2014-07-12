@@ -2,7 +2,6 @@ package com.heroicduel;
 import java.util.*;
 
 public class HeroicDuel {
-	@SupressWarnings
     public static void main(String args[]) {
         
         Scanner sc = new Scanner(System.in);
