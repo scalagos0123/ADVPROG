@@ -25,6 +25,20 @@ public class Subscriber {
 	}
 	
 	public void downVote(Subscriber s) {
+		double amountToDeductFromOtherSub = (5 - s.getRating() * 0.03);
+		double amountToDeductFromSelf = (5 - this.rating * 0.02);
+		
+		if (s.getRating() < 0 || this.rating < 0) {
+			amountToDeductFromOtherSub = 0;
+			amountToDeductFromSelf = 0;
+		}
+		
+		this.rating = this.rating - amountToDeductFromSelf;
+		s.setRating(amountToDeductFromOtherSub);
+	}
+	
+	public void addWatchers(Subscriber s) {
+		this.devWatch.add(s);
 		
 	}
 
