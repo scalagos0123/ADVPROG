@@ -6,5 +6,7 @@ public class Driver {
 		ClassA c = new ClassA();
 		
 		c.method1();
+		
+		System.out.println(c.getClass());
 	}
 }
