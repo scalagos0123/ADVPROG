@@ -28,13 +28,9 @@ public class CPU extends ComputerPart {
 		System.out.println(getManufacturer());
 		System.out.println(getPrice());
 	}
-<<<<<<< HEAD
+
 	public void displayOtherSpecs(){ 
 		System.out.println(getCoreModel());
-=======
-	
-	public void displayOtherSpecs() {
-		
->>>>>>> origin/master
 	}
+	
 }

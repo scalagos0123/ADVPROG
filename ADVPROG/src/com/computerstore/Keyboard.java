@@ -10,7 +10,7 @@ public class Keyboard extends Peripheral {
 	public void setType(String type) {
 		Type = type;
 	}
-<<<<<<< HEAD
+
 	public void displayCommonSpecs() {
 		System.out.println(this.getSerialNo());
 		System.out.println(this.getManufacturer());
@@ -18,7 +18,7 @@ public class Keyboard extends Peripheral {
 	}
 	public void displayOtherSpecs(){ 
 		System.out.println(this.getType());
-=======
+	}
 	
 	public void setPrice(double price) {
 		this.Price = price;
@@ -30,6 +30,6 @@ public class Keyboard extends Peripheral {
 	
 	public void setManufacturer(String Manufacturer) {
 		this.Manufacturer = Manufacturer;
->>>>>>> origin/master
+
 	}
 }
