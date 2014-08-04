@@ -10,6 +10,7 @@ public class OS extends ComputerPart {
 	public void setName(String name) {
 		Name = name;
 	}
+<<<<<<< HEAD
 	public void displayCommonSpecs() {
 		System.out.println(this.getSerialNo());
 		System.out.println(this.getManufacturer());
@@ -17,5 +18,18 @@ public class OS extends ComputerPart {
 	}
 	public void displayOtherSpecs(){ 
 		System.out.println(this.getName());
+=======
+	
+	public void setPrice(double price) {
+		this.Price = price;
+	}
+	
+	public void setSerialNo(int SerialNo) {
+		this.SerialNo = SerialNo;
+	}
+	
+	public void setManufacturer(String Manufacturer) {
+		this.Manufacturer = Manufacturer;
+>>>>>>> origin/master
 	}
 }

@@ -10,4 +10,5 @@ public class Peripheral extends ComputerPart {
 	public void setLatency(double latency) {
 		Latency = latency;
 	}
+	
 }

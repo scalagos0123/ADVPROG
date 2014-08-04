@@ -5,10 +5,6 @@ public class ComputerPart {
 	protected String Manufacturer;
 	protected double Price;
 	
-	public ComputerPart() {
-		
-	}
-	
 	public int getSerialNo() {
 		return SerialNo;
 	}
