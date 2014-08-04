@@ -1,6 +1,6 @@
 package com.computerstore;
 
-public class Peripheral extends ComputerPart {
+public abstract class Peripheral extends ComputerPart {
 	private double Latency;
 	
 	public double getLatency() {

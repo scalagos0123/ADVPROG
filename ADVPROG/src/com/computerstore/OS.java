@@ -39,4 +39,4 @@ public class OS extends ComputerPart {
 		System.out.println(this.getPrice());
 		System.out.println(this.getName());
 	}
-}
+	}
