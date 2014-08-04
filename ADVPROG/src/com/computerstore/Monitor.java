@@ -10,7 +10,7 @@ public class Monitor extends ComputerPart {
 	public void setResolution(String resolution) {
 		Resolution = resolution;
 	}
-<<<<<<< HEAD
+
 	public void displayCommonSpecs() {
 		System.out.println(this.getSerialNo());
 		System.out.println(this.getManufacturer());
@@ -18,7 +18,7 @@ public class Monitor extends ComputerPart {
 	}
 	public void displayOtherSpecs(){ 
 		System.out.println(this.getResolution());
-=======
+	}
 	
 	public void setPrice(double price) {
 		this.Price = price;
@@ -30,6 +30,13 @@ public class Monitor extends ComputerPart {
 	
 	public void setManufacturer(String Manufacturer) {
 		this.Manufacturer = Manufacturer;
->>>>>>> origin/master
+
+	}
+	
+	public void displayPartSpecs() {
+		System.out.println(getSerialNo());
+		System.out.println(getManufacturer());
+		System.out.println(getPrice());
+		System.out.println(this.getResolution());
 	}
 }
