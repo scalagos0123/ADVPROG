@@ -18,6 +18,9 @@ public class CPU extends ComputerPart {
 	public void displayCommonSpecs() {
 		System.out.println(getSerialNo());
 		System.out.println(getManufacturer());
-		System.out.println();
+		System.out.println(getPrice());
+	}
+	public void displayOtherSpecs(){ 
+		System.out.println(getCoreModel());
 	}
 }

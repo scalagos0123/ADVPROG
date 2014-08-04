@@ -10,4 +10,12 @@ public class OS extends ComputerPart {
 	public void setName(String name) {
 		Name = name;
 	}
+	public void displayCommonSpecs() {
+		System.out.println(this.getSerialNo());
+		System.out.println(this.getManufacturer());
+		System.out.println(this.getPrice());
+	}
+	public void displayOtherSpecs(){ 
+		System.out.println(this.getName());
+	}
 }
