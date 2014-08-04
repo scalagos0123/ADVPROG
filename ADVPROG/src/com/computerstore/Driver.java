@@ -7,7 +7,8 @@ public class Driver {
 		
 		Bundle b = new Bundle(); 
 		
-		System.out.println(" Buy bundle: ");
+		b.displayPartsSpecs();
+		
 		
 		
 	}

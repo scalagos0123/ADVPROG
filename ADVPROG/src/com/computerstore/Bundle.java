@@ -32,7 +32,7 @@ public class Bundle {
 	
 	public void displayPartsSpecs() {
 		for (int i = 0; i < this.bundle.size(); i++) {
-			
+			System.out.println(this.bundle.get(i)); 
 		}
 	}
 }

@@ -1,6 +1,6 @@
 package com.computerstore;
 
-public class ComputerPart {
+public abstract class ComputerPart {
 	protected int SerialNo;
 	protected String Manufacturer;
 	protected double Price;
