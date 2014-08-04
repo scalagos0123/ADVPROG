@@ -9,7 +9,7 @@ public class Bundle {
 		this.bundle = new ArrayList<ComputerPart>();
 	}
 	
-	public void addBundle(ComputerPart part) {
+	public void addComputerPart(ComputerPart part) {
 		this.bundle.add(part);
 	}
 	

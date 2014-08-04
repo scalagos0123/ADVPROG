@@ -10,4 +10,16 @@ public class Keyboard extends Peripheral {
 	public void setType(String type) {
 		Type = type;
 	}
+	
+	public void setPrice(double price) {
+		this.Price = price;
+	}
+	
+	public void setSerialNo(int SerialNo) {
+		this.SerialNo = SerialNo;
+	}
+	
+	public void setManufacturer(String Manufacturer) {
+		this.Manufacturer = Manufacturer;
+	}
 }
