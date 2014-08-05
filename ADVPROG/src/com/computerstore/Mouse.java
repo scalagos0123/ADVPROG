@@ -3,6 +3,16 @@ package com.computerstore;
 public class Mouse extends Peripheral {
 	private int DPI;
 
+	public Mouse(int serialNo, String manufacturer, double price, 
+			double latency, int dpi) {
+		
+		this.SerialNo = serialNo;
+		this.Manufacturer = manufacturer;
+		this.Price = price;
+		this.setLatency(latency);
+		this.DPI = dpi;
+	}
+	
 	public int getDPI() {
 		return DPI;
 	}

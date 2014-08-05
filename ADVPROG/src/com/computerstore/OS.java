@@ -3,6 +3,15 @@ package com.computerstore;
 public class OS extends ComputerPart {
 	private String Name;
 
+	public OS(int serialNo, String manufacturer, double price, 
+			String name) {
+		
+		this.SerialNo = serialNo;
+		this.Manufacturer = manufacturer;
+		this.Price = price;
+		this.Name = name;
+	}
+	
 	public String getName() {
 		return Name;
 	}
