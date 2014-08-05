@@ -9,6 +9,15 @@ public abstract class ComputerPart {
 		return SerialNo;
 	}
 	
+	public void displayCommonSpecs() {
+		
+	}
+	
+	public void displayOtherSpecs() {
+		
+	}
+
+	
 	public String getManufacturer() {
 		return Manufacturer;
 	}
@@ -24,8 +33,13 @@ public abstract class ComputerPart {
 	public void setManufacturer(String manufacturer) {
 		Manufacturer = manufacturer;
 	}
-	
+
 	public void setPrice(double price) {
 		Price = price;
+	}
+	
+	public void displayPartsSpecs() {
+		this.displayCommonSpecs();
+		this.displayOtherSpecs();
 	}
 }
