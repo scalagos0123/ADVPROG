@@ -8,7 +8,6 @@ public abstract class ComputerPart {
 	public int getSerialNo() {
 		return SerialNo;
 	}
-<<<<<<< HEAD
 	
 	public void displayCommonSpecs() {
 		
@@ -17,9 +16,6 @@ public abstract class ComputerPart {
 	public void displayOtherSpecs() {
 		
 	}
-=======
->>>>>>> origin/master
-
 	
 	public String getManufacturer() {
 		return Manufacturer;
@@ -40,12 +36,11 @@ public abstract class ComputerPart {
 	public void setPrice(double price) {
 		Price = price;
 	}
-<<<<<<< HEAD
+
 	
 	public void displayPartsSpecs() {
 		this.displayCommonSpecs();
 		this.displayOtherSpecs();
 	}
-=======
->>>>>>> origin/master
+
 }
