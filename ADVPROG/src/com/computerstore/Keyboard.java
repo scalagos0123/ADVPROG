@@ -21,11 +21,6 @@ public class Keyboard extends Peripheral {
 		Type = type;
 	}
 
-	public void displayCommonSpecs() {
-		System.out.println(this.getSerialNo());
-		System.out.println(this.getManufacturer());
-		System.out.println(this.getPrice());
-	}
 	public void displayOtherSpecs(){ 
 		System.out.println(this.getType());
 	}

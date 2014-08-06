@@ -16,6 +16,10 @@ public class Bundle {
 	public ArrayList<ComputerPart> getBundle() {
 		return bundle;
 	}
+	
+	public int bundleSize() {
+		return bundle.size();
+	}
 
 	public void setBundle(ArrayList<ComputerPart> bundle) {
 		this.bundle = bundle;
@@ -32,11 +36,10 @@ public class Bundle {
 	
 	public void displayPartsSpecs() {
 		for (int i = 0; i < this.bundle.size(); i++) {
-<<<<<<< HEAD
+
 			System.out.println(this.bundle.get(i)); 
-=======
 			this.bundle.get(i).displayPartsSpecs();
->>>>>>> origin/master
+
 		}
 	}
 }

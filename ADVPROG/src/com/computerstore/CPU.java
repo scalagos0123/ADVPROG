@@ -32,12 +32,6 @@ public class CPU extends ComputerPart {
 		this.Manufacturer = Manufacturer;
 	}
 	
-	public void displayCommonSpecs() {
-		System.out.println(getSerialNo());
-		System.out.println(getManufacturer());
-		System.out.println(getPrice());
-	}
-
 	public void displayOtherSpecs(){ 
 		System.out.println(getCoreModel());
 	}

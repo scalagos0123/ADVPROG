@@ -6,12 +6,12 @@ public class Driver {
 		Scanner sc = new Scanner(System.in); 
 		
 		Bundle b = new Bundle(); 
-		CPU cpu = new CPU(); 
-		Monitor mon = new Monitor(); 
-		OS os = new OS(); 
+		CPU cpu = new CPU(1234,"intel",1499,"core i3"); 
+		Monitor mon = new Monitor(3290, "acer", 3400, "1920x1080"); 
+		OS os = new OS(2900,"microsoft",10500,"windows 8"); 
 		
-		Keyboard kbd = new Keyboard(); 
-		Mouse mou = new Mouse();
+		Keyboard kbd = new Keyboard(5520,"razer",8000, 15, "gaming"); 
+		Mouse mou = new Mouse(9000, "elephant", 9999, 10, 5000);
 		
 		
 		b.addComputerPart(cpu);
@@ -20,7 +20,7 @@ public class Driver {
 		b.addComputerPart(kbd); 
 		b.addComputerPart(mou); 
 		
-		for(int i = 0; b.getBundle.size(); i++){ 
+		for (int i = 0; i < b.bundleSize(); i++){ 
 			
 		}
 		

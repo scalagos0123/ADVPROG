@@ -5,16 +5,10 @@ public abstract class ComputerPart {
 	protected String Manufacturer;
 	protected double Price;
 	
+	public abstract void displayOtherSpecs();
+	
 	public int getSerialNo() {
 		return SerialNo;
-	}
-	
-	public void displayCommonSpecs() {
-		
-	}
-	
-	public void displayOtherSpecs() {
-		
 	}
 	
 	public String getManufacturer() {
@@ -41,6 +35,13 @@ public abstract class ComputerPart {
 	public void displayPartsSpecs() {
 		this.displayCommonSpecs();
 		this.displayOtherSpecs();
+	}
+
+
+	public void displayCommonSpecs() {
+		System.out.println(this.getSerialNo());
+		System.out.println(this.getManufacturer());
+		System.out.println(this.getPrice());
 	}
 
 }
