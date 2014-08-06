@@ -6,12 +6,12 @@ public class Driver {
 		Scanner sc = new Scanner(System.in); 
 		
 		Bundle b = new Bundle(); 
-		CPU cpu = new CPU(); 
-		Monitor mon = new Monitor(); 
-		OS os = new OS(); 
+		CPU cpu = new CPU(1, "Kat", 10.0, "P"); 
+		Monitor mon = new Monitor(2, "Shaun", 10.0, "P"); 
+		OS os = new OS(3, "Shaun", 10.0, "P"); 
 		
-		Keyboard kbd = new Keyboard(); 
-		Mouse mou = new Mouse();
+		Keyboard kbd = new Keyboard(4, "Shaun", 10.0, 10.0, "P"); 
+		Mouse mou = new Mouse(5, "Shaun", 10.0, 10.0, 1);
 		
 		
 		b.addComputerPart(cpu);
@@ -20,16 +20,11 @@ public class Driver {
 		b.addComputerPart(kbd); 
 		b.addComputerPart(mou); 
 		
-		for(int i = 0; b.getBundle.size(); i++){ 
-			
-		}
 		
-		System.out.println("Total price : PhP"); 
-	
 		
 		b.displayPartsSpecs();
 		
-		
+				
 		
 		
 		
