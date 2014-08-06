@@ -25,9 +25,6 @@ public class Bundle {
 		this.bundle = bundle;
 	}
 	
-	public int bundleSize(){ 
-		return bundle.size(); 
-	}
 	public double getTotalPrice() {
 		double totalPrice = 0;
 		for (int i = 0; i < this.bundle.size(); i++) {
@@ -38,17 +35,9 @@ public class Bundle {
 	}
 	
 	public void displayPartsSpecs() {
-<<<<<<< HEAD
-		for (int i = 0; i < this.bundle.size(); i++) { 
-=======
 		for (int i = 0; i < this.bundle.size(); i++) {
 
 			System.out.println(this.bundle.get(i)); 
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/master
->>>>>>> origin/master
 			this.bundle.get(i).displayPartsSpecs();
 
 		}
