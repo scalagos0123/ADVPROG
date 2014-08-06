@@ -3,6 +3,15 @@ package com.computerstore;
 public class Monitor extends ComputerPart {
 	private String Resolution;
 
+	public Monitor(int serialNo, String manufacturer, double price, 
+			String resolution) {
+		
+		this.SerialNo = serialNo;
+		this.Manufacturer = manufacturer;
+		this.Price = price;
+		this.Resolution = resolution;
+	}
+	
 	public String getResolution() {
 		return Resolution;
 	}

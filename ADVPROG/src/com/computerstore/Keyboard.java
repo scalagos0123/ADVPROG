@@ -3,6 +3,16 @@ package com.computerstore;
 public class Keyboard extends Peripheral {
 	private String Type;
 
+	public Keyboard(int serialNo, String manufacturer, double price, 
+			double latency, String type) {
+		
+		this.SerialNo = serialNo;
+		this.Manufacturer = manufacturer;
+		this.Price = price;
+		this.setLatency(latency);
+		this.Type = type;
+	}
+	
 	public String getType() {
 		return Type;
 	}

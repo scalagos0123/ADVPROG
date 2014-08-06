@@ -3,6 +3,15 @@ package com.computerstore;
 public class CPU extends ComputerPart {
 	private String CoreModel;
 	
+	public CPU(int serialNo, String manufacturer, double price, 
+			String coremodel) {
+		
+		this.SerialNo = serialNo;
+		this.Manufacturer = manufacturer;
+		this.Price = price;
+		this.CoreModel = coremodel;
+	}
+	
 	public String getCoreModel() {
 		return CoreModel;
 	}
