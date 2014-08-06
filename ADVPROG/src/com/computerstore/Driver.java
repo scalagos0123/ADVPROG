@@ -25,9 +25,7 @@ public class Driver {
 		}
 		
 		System.out.println("Total price : PhP"); 
-	
-		
-		b.displayPartsSpecs();
+		b.getTotalPrice();
 		
 		
 		
