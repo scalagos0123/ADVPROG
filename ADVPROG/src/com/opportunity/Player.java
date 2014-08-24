@@ -26,7 +26,7 @@ public class Player {
     public Player(String player) {
     	this.sc = new Scanner (System.in);
         this.player = player;
-        this.money = 10000;
+        this.money = 1000;
         this.cardAtHand = 0;
     }
     

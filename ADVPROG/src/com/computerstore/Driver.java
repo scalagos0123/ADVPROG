@@ -20,11 +20,11 @@ public class Driver {
 		b.addComputerPart(os); 
 		b.addComputerPart(kbd); 
 		b.addComputerPart(mou); 
-		
 		b.displayPartsSpecs();
 		
-		System.out.println("Total price : PhP"); 
-		b.getTotalPrice();		
+		System.out.printf("Total price : PhP %.2f", 
+		b.getTotalPrice()); 
+				
 	}
 
 }
